@@ -1,0 +1,22 @@
+import turtle
+t = turtle.Turtle()
+t.speed()
+t.color("red")
+t.up()
+t.goto(0,0)
+t.down()
+t.ht()
+
+t.begin_fill()
+t.left(45)
+t.forward(150)
+t.circle(75,180)
+t.right(90)
+t.circle(75,180)
+t.forward(150)
+t.end_fill()
+
+t.up()
+t.goto(-55,-100)
+t.down()
+t.write("爱心♥",font=("宋体",27,"bold italic"))
